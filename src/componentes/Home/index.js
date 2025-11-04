@@ -1,4 +1,4 @@
-import ProjetosHome from 'PojetosHome.js'
+import ProjetosHome from 'ProjetosHome.js';
 
 function Home(){
 
@@ -10,7 +10,7 @@ function Home(){
 
 <section id="projetos">
     <h1>Projetos</h1>
-    
+    <ProjetosHome />
     </section>
 
 <section id="serviços">

@@ -1,6 +1,7 @@
 const imgInstagram = require('./logo.png');
 const imgFacebook =require('./logo.png');
 const imgLinKedin =require ('./logo.png');
+const imgGithub =require ('./logo.png');
 
 function Footer(){
 
@@ -20,10 +21,12 @@ function Footer(){
 
   <div className='redesSociais'>
     <div><img src = {imgInstagram} className='imgRedesSociais'/></div>  
-    <div><img src = {imgInstagram} className='imgRedesSociais'/></div>  
-    <div><img src = {imgInstagram} className='imgRedesSociais'/></div>  
-    <div><img src = {imgInstagram} className='imgRedesSociais'/></div>  
+    <div><img src = {imgFacebook} className='imgRedesSociais'/></div>  
+    <div><img src = {imgLinKedin} className='imgRedesSociais'/></div>  
+    <div><img src = {imgGithub} className='imgRedesSociais'/></div>  
   </div>
 </footer>
     )
 }
+
+export default Footer;
